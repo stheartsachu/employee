@@ -83,11 +83,11 @@ pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', #sqlite3
-        'NAME': 'django-rest-framework', #os.path.join(BASE_DIR, 'db.sqlite3'),
-        'HOST': '192.168.1.7',
-        'PORT': '80',
-        'USER': 'root',
-        'PASSWORD': ''
+        'NAME': 'sql12322971', #os.path.join(BASE_DIR, 'db.sqlite3'),
+        'HOST': 'sql12.freemysqlhosting.net',
+        'PORT': '3306',
+        'USER': 'sql12322971',
+        'PASSWORD': '3khbXhUjyP'
     }
 }
 
