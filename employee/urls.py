@@ -31,4 +31,4 @@ urlpatterns = [
     url(r'api/bulb_data/', Bulbdata.as_view(), name='bulb_data'),
 
 
-]+static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
+]+static(settings.STATIC_FILE_DIR,document_root=settings.STATIC_ROOT)
