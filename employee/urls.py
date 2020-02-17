@@ -24,6 +24,7 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    url(r'',views.home),
     url(r'bulb_status/',views.bulb),
     url(r'api/users_list/', UserList.as_view(), name='user_list'),
     url(r'api/bulb_data/', Bulbdata.as_view(), name='bulb_data'),

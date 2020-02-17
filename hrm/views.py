@@ -11,3 +11,5 @@ def bulb(request):
         f.save()
         HttpResponse("hi saved remove me")
     return render(request, "index.html")
+def home(request):
+    return render(request,"home.html")
