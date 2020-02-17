@@ -16,6 +16,8 @@ p	{text-indent:20px;
 <h1>Hello, World!</h1>
 {% csrf_token %}
 <a href="{% url 'bulb_status' %}">BULB STATUS </a><br>
+<button onclick="window.location.href = 'https://immense-castle-47898.herokuapp.com/bulb_status';">Click Here</button>
+
 <a href="https://immense-castle-47898.herokuapp.com/api/bulb_data/">BULB DATA </a><br>
 
 <p>You can modify the text in the box to the left any way you like, and
